@@ -62,3 +62,5 @@ def delete_todo(todo_id: int, db: Session = Depends(get_db)):
     db.delete(Todo)
     db.commit()
     return {"message": "Todo deleted successfully "}
+
+    #

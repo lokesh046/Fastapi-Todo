@@ -7,3 +7,4 @@ class todo(Base):
     title = Column(String,nullable=False)
     description = Column(String)
     completed = Column(Boolean,default=False)
+#
